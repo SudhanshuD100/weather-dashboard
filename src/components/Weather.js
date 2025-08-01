@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Weather = () => {
   const [city, setCity] = useState("");
   const [weatherData, setWeatherData] = useState(null);
-  const API_KEY = "e5829eebddf548f84bf130e75894bf66"; // Replace with your OpenWeatherMap API key
+  const API_KEY = "Replace with your OpenWeatherMap API key"; // Replace with your OpenWeatherMap API key
 
   const fetchWeather = async () => {
     if (!city) return;
